@@ -1,32 +1,38 @@
 export default function Header() {
   return (
-    <div className="fixed z-30 w-full border-b-2 shadow-md bg-grey-100 border-danger-500">
+    <div className="fixed z-30 w-full bg-opacity-50 shadow-md bg-secondary-500 ">
       <div className="container flex flex-row items-center justify-between mx-auto mt-2 ">
         <img className="h-20" src="logo.png" alt="Logo" />
         <ul className="flex space-x-10">
           <a
-            className="text-base font-medium tracking-normal text-gray-100 transition duration-300 ease-in-out hover:text-danger-500 linker"
+            className="text-sm font-normal tracking-wide text-gray-100 transition duration-300 ease-in-out hover:text-yellow linker"
             href="hero"
           >
-            Ínicio
+            INÍCIO
           </a>
           <a
-            className="text-base font-medium tracking-normal text-gray-100 transition duration-300 ease-in-out hover:text-danger-500 linker"
+            className="text-sm font-normal tracking-wide text-gray-100 transition duration-300 ease-in-out hover:text-yellow linker"
             href="equipe"
           >
-            Equipe
+            EQUIPE
           </a>
           <a
-            className="text-base font-medium tracking-normal text-gray-100 transition duration-300 ease-in-out hover:text-danger-500 linker"
+            className="text-sm font-normal tracking-wide text-gray-100 transition duration-300 ease-in-out hover:text-yellow linker"
             href="sobre"
           >
-            Sobre Nós
+            SOBRE NÓS
           </a>
           <a
-            className="text-base font-medium tracking-normal text-gray-100 transition duration-300 ease-in-out hover:text-danger-500 linker"
+            className="text-sm font-normal tracking-wide text-gray-100 transition duration-300 ease-in-out hover:text-yellow linker"
+            href="depoimentos"
+          >
+            DEPOIMENTOS
+            </a>
+          <a
+            className="text-sm font-normal tracking-wide text-gray-100 transition duration-300 ease-in-out hover:text-yellow linker"
             href="contato"
           >
-            Contato
+            CONTATO
           </a>
         </ul>
       </div>

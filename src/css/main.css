@@ -13,7 +13,7 @@
   background: currentColor;
   transition: all 0.7s;
   width: 0;
-  color: #ff2929;
+  color: #ffd567;
 }
 
 .linker:hover:after {
@@ -23,7 +23,19 @@
 }
 
 .fundo {
-  background-image: url("/fundo.jpg");
+  background-image: url("/fundo2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-header::after {
+  position: absolute;
+  height: 3px;
+  width: 50%;
+  bottom: -10px;
+  left: 50%;
+  content: " ";
+  background-color: #ffd567;
+  transform: translateX(-50%);
 }
